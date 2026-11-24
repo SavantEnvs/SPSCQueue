@@ -1,0 +1,6 @@
+# Build context for mayhem/Dockerfile: keep .git (the image needs full history), drop local build output.
+build/
+cmake-build-*/
+fuzz_spscqueue
+fuzz_spscqueue-standalone
+ctrf-report.json
